@@ -41,6 +41,8 @@ Execution:
   Assert: Assert that an exception is thrown.
 Validation:
   The assertion aims to verify that the getAllProducts method properly handles exceptions. This is important to ensure that the application can gracefully handle any errors that may occur during the retrieval of products.
+
+roost_feedback [10/1/2024, 4:31:33 PM]:remove the comments form the code
 */
 
 // ********RoostGPT********
@@ -62,34 +64,29 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.any;
-import org.junit.jupiter.api.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 @SpringBootTest
 @ExtendWith(MockitoExtension.class)
 public class ProductControllerGetAllProductsTest {
 
-	@InjectMocks
-	private ProductController productController;
+    @InjectMocks
+    private ProductController productController;
 
-	@Mock
-	private ProductRepository productRepository;
+    @Mock
+    private ProductRepository productRepository;
 
-	@Test
-	@Tag("valid")
-	public void verifyAllProductsReturnedCorrectly() {
-		Product product1 = new Product();
-		Product product2 = new Product();
-		List<Product> mockProducts = Arrays.asList(product1, product2);
-		when(productRepository.findAll()).thenReturn(mockProducts);
-		List<Product> products = productController.getAllProducts();
-		assertThat(products).isEqualTo(mockProducts);
-	}
+    @Test
+    @Tag("valid")
+    public void verifyAllProductsReturnedCorrectly() {
+        Product product1 = new Product();
+        Product product2 = new Product();
+        List<Product> mockProducts = Arrays.asList(product1, product2);
+        when(productRepository.findAll()).thenReturn(mockProducts);
+        List<Product> products = productController.getAllProducts();
+        assertThat(products).isEqualTo(mockProducts);
+    }
 
-	@Test
+    @Test
     @Tag("valid")
     public void verifyEmptyListWhenNoProducts() {
         when(productRepository.findAll()).thenReturn(Collections.emptyList());
@@ -97,7 +94,7 @@ public class ProductControllerGetAllProductsTest {
         assertThat(products).isEmpty();
     }
 
-	@Test
+    @Test
     @Tag("invalid")
     public void verifyExceptionHandling() {
         when(productRepository.findAll()).thenThrow(new RuntimeException("Exception occurred"));
