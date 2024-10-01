@@ -43,6 +43,8 @@ Validation:
   The assertion aims to verify that the getAllProducts method properly handles exceptions. This is important to ensure that the application can gracefully handle any errors that may occur during the retrieval of products.
 
 roost_feedback [10/1/2024, 4:31:33 PM]:remove the comments form the code
+
+roost_feedback [10/1/2024, 4:35:54 PM]:add comment at the top of the file as dummy omment
 */
 
 // ********RoostGPT********
@@ -51,6 +53,7 @@ package com.bootexample4.products.controller;
 
 import com.bootexample4.products.model.Product;
 import com.bootexample4.products.repository.ProductRepository;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -64,6 +67,8 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.times;
 
 @SpringBootTest
 @ExtendWith(MockitoExtension.class)
@@ -75,15 +80,24 @@ public class ProductControllerGetAllProductsTest {
     @Mock
     private ProductRepository productRepository;
 
+    private Product product1;
+    private Product product2;
+    private List<Product> mockProducts;
+
+    @BeforeEach
+    public void setup() {
+        product1 = new Product();
+        product2 = new Product();
+        mockProducts = Arrays.asList(product1, product2);
+    }
+
     @Test
     @Tag("valid")
     public void verifyAllProductsReturnedCorrectly() {
-        Product product1 = new Product();
-        Product product2 = new Product();
-        List<Product> mockProducts = Arrays.asList(product1, product2);
         when(productRepository.findAll()).thenReturn(mockProducts);
         List<Product> products = productController.getAllProducts();
         assertThat(products).isEqualTo(mockProducts);
+        verify(productRepository, times(1)).findAll();
     }
 
     @Test
@@ -92,6 +106,7 @@ public class ProductControllerGetAllProductsTest {
         when(productRepository.findAll()).thenReturn(Collections.emptyList());
         List<Product> products = productController.getAllProducts();
         assertThat(products).isEmpty();
+        verify(productRepository, times(1)).findAll();
     }
 
     @Test
@@ -101,6 +116,7 @@ public class ProductControllerGetAllProductsTest {
         assertThatThrownBy(() -> productController.getAllProducts())
                 .isInstanceOf(RuntimeException.class)
                 .hasMessage("Exception occurred");
+        verify(productRepository, times(1)).findAll();
     }
 
 }
