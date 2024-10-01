@@ -41,6 +41,8 @@ Execution:
   Assert: Catch the NullPointerException and assert that it is thrown.
 Validation:
   The assertion aims to verify that the getAllProducts method can handle the scenario where the product repository is null. This is important to ensure that the application does not crash when the repository is null.
+
+roost_feedback [10/1/2024, 4:52:39 PM]:remove comment form the file
 */
 
 // ********RoostGPT********
@@ -62,10 +64,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
-import org.junit.jupiter.api.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 @SpringBootTest
 @ExtendWith(MockitoExtension.class)
@@ -77,8 +75,8 @@ public class ProductControllerGetAllProductsTest {
 	@InjectMocks
 	private ProductController productController;
 
-	@Tag("valid")
 	@Test
+	@Tag("valid")
 	public void verifyAllProductsReturnedCorrectly() {
 		Product product1 = new Product();
 		Product product2 = new Product();
@@ -88,20 +86,19 @@ public class ProductControllerGetAllProductsTest {
 		assertThat(actualProducts).isEqualTo(expectedProducts);
 	}
 
-	@Tag("boundary")
-    @Test
-    public void verifyEmptyProductListHandling() {
-        when(productRepository.findAll()).thenReturn(Collections.emptyList());
-        List<Product> actualProducts = productController.getAllProducts();
-        assertThat(actualProducts).isEmpty();
-    }
-
-	@Tag("invalid")
 	@Test
+	@Tag("boundary")
+	public void verifyEmptyProductListHandling() {
+		when(productRepository.findAll()).thenReturn(Collections.emptyList());
+		List<Product> actualProducts = productController.getAllProducts();
+		assertThat(actualProducts).isEmpty();
+	}
+
+	@Test
+	@Tag("invalid")
 	public void verifyNullProductRepositoryHandling() {
 		productRepository = null;
-		Exception exception = assertThrows(NullPointerException.class, () -> productController.getAllProducts());
-		assertThat(exception).isInstanceOf(NullPointerException.class);
+		assertThrows(NullPointerException.class, () -> productController.getAllProducts());
 	}
 
 }
