@@ -94,6 +94,13 @@
       <scope>compile</scope>
       <!--Dependency added by RoostGPT-->
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>5.3.10</version>
+      <scope>compile</scope>
+      <!--Dependency added by RoostGPT-->
+    </dependency>
   </dependencies>
   <build>
     <plugins>
