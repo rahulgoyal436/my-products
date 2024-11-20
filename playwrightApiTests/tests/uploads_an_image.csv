@@ -1,0 +1,11 @@
+"requestParam","requestHeader","requestBody","responseBody","statusCode"
+"petId: 1","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 2","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 3","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 4","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 5","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 6","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 7","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 8","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 9","","","code: 100, type: success, message: Image uploaded successfully",200
+"petId: 10","","","code: 100, type: success, message: Image uploaded successfully",200
