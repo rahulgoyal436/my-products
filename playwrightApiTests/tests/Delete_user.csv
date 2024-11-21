@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"username": "user1"}|||{"message": "User deleted successfully"}|200
+{"username": "user2"}|||{"message": "User deleted successfully"}|200
+{"username": "user3"}|||{"message": "User deleted successfully"}|200
+{"username": "user4"}|||{"message": "User deleted successfully"}|200
+{"username": "user5"}|||{"message": "User deleted successfully"}|200
+{"username": "user6"}|||{"message": "User deleted successfully"}|200
+{"username": "user7"}|||{"message": "User deleted successfully"}|200
+{"username": "user8"}|||{"message": "User deleted successfully"}|200
+{"username": "user9"}|||{"message": "User deleted successfully"}|200
+{"username": "user10"}|||{"message": "User deleted successfully"}|200

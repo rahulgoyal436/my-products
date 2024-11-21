@@ -1,0 +1,11 @@
+requestParam,requestHeader,requestBody,responseBody,statusCode
+{"petId": 1},{"api_key": "abc123"},,,204
+{"petId": 2},{"api_key": "def456"},,,204
+{"petId": 3},{"api_key": "ghi789"},,,204
+{"petId": 4},{"api_key": "jkl012"},,,204
+{"petId": 5},{"api_key": "mno345"},,,204
+{"petId": 6},{"api_key": "pqr678"},,,204
+{"petId": 7},{"api_key": "stu901"},,,204
+{"petId": 8},{"api_key": "vwx234"},,,204
+{"petId": 9},{"api_key": "yzb567"},,,204
+{"petId": 10},{"api_key": "cde890"},,,204

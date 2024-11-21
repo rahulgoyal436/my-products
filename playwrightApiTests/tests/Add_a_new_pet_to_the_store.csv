@@ -1,0 +1,11 @@
+requestParam,requestHeader,requestBody,responseBody,statusCode
+,,{"id": 1, "category": {"id": 101, "name": "Dogs"}, "name": "Buddy", "photoUrls": ["http://example.com/photo1.jpg"], "tags": [{"id": 1, "name": "Friendly"}], "status": "available"},,201
+,,{"id": 2, "category": {"id": 102, "name": "Cats"}, "name": "Whiskers", "photoUrls": ["http://example.com/photo2.jpg"], "tags": [{"id": 2, "name": "Cute"}], "status": "pending"},,201
+,,{"id": 3, "category": {"id": 103, "name": "Birds"}, "name": "Tweety", "photoUrls": ["http://example.com/photo3.jpg"], "tags": [{"id": 3, "name": "Colorful"}], "status": "sold"},,201
+,,{"id": 4, "category": {"id": 104, "name": "Fish"}, "name": "Goldie", "photoUrls": ["http://example.com/photo4.jpg"], "tags": [{"id": 4, "name": "Golden"}], "status": "available"},,201
+,,{"id": 5, "category": {"id": 105, "name": "Reptiles"}, "name": "Spike", "photoUrls": ["http://example.com/photo5.jpg"], "tags": [{"id": 5, "name": "Scaly"}], "status": "pending"},,201
+,,{"id": 6, "category": {"id": 106, "name": "Rodents"}, "name": "Nibbles", "photoUrls": ["http://example.com/photo6.jpg"], "tags": [{"id": 6, "name": "Small"}], "status": "sold"},,201
+,,{"id": 7, "category": {"id": 107, "name": "Horses"}, "name": "Spirit", "photoUrls": ["http://example.com/photo7.jpg"], "tags": [{"id": 7, "name": "Strong"}], "status": "available"},,201
+,,{"id": 8, "category": {"id": 108, "name": "Amphibians"}, "name": "Jumpy", "photoUrls": ["http://example.com/photo8.jpg"], "tags": [{"id": 8, "name": "Green"}], "status": "pending"},,201
+,,{"id": 9, "category": {"id": 109, "name": "Insects"}, "name": "Buzzy", "photoUrls": ["http://example.com/photo9.jpg"], "tags": [{"id": 9, "name": "Buzzing"}], "status": "sold"},,201
+,,{"id": 10, "category": {"id": 110, "name": "Furballs"}, "name": "Fluffy", "photoUrls": ["http://example.com/photo10.jpg"], "tags": [{"id": 10, "name": "Cuddly"}], "status": "available"},,201

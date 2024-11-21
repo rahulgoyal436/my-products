@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"petId": 101}| |{"name": "Buddy", "status": "available"}|{"id": 101, "name": "Buddy", "status": "available"}|200
+{"petId": 102}| |{"name": "Max", "status": "sold"}|{"id": 102, "name": "Max", "status": "sold"}|200
+{"petId": 103}| |{"name": "Bella", "status": "pending"}|{"id": 103, "name": "Bella", "status": "pending"}|200
+{"petId": 104}| |{"name": "Charlie", "status": "available"}|{"id": 104, "name": "Charlie", "status": "available"}|200
+{"petId": 105}| |{"name": "Lucy", "status": "sold"}|{"id": 105, "name": "Lucy", "status": "sold"}|200
+{"petId": 106}| |{"name": "Daisy", "status": "pending"}|{"id": 106, "name": "Daisy", "status": "pending"}|200
+{"petId": 107}| |{"name": "Luna", "status": "available"}|{"id": 107, "name": "Luna", "status": "available"}|200
+{"petId": 108}| |{"name": "Molly", "status": "sold"}|{"id": 108, "name": "Molly", "status": "sold"}|200
+{"petId": 109}| |{"name": "Rocky", "status": "pending"}|{"id": 109, "name": "Rocky", "status": "pending"}|200
+{"petId": 110}| |{"name": "Sadie", "status": "available"}|{"id": 110, "name": "Sadie", "status": "available"}|200
