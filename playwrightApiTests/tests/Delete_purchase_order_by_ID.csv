@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"orderId": 101}|||{"message": "Order deleted successfully", "orderId": 101}|200
+{"orderId": 102}|||{"message": "Order deleted successfully", "orderId": 102}|200
+{"orderId": 103}|||{"message": "Order deleted successfully", "orderId": 103}|200
+{"orderId": 104}|||{"message": "Order deleted successfully", "orderId": 104}|200
+{"orderId": 105}|||{"message": "Order deleted successfully", "orderId": 105}|200
+{"orderId": 106}|||{"message": "Order deleted successfully", "orderId": 106}|200
+{"orderId": 107}|||{"message": "Order deleted successfully", "orderId": 107}|200
+{"orderId": 108}|||{"message": "Order deleted successfully", "orderId": 108}|200
+{"orderId": 109}|||{"message": "Order deleted successfully", "orderId": 109}|200
+{"orderId": 110}|||{"message": "Order deleted successfully", "orderId": 110}|200

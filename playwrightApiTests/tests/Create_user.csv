@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+||{"id": 1, "username": "johndoe", "firstName": "John", "lastName": "Doe", "email": "johndoe@example.com", "password": "securePass123", "phone": "123-456-7890", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 2, "username": "janedoe", "firstName": "Jane", "lastName": "Doe", "email": "janedoe@example.com", "password": "securePass234", "phone": "098-765-4321", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 3, "username": "alicew", "firstName": "Alice", "lastName": "Williams", "email": "alicew@example.com", "password": "securePass345", "phone": "135-792-4680", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 4, "username": "bobsmith", "firstName": "Bob", "lastName": "Smith", "email": "bobsmith@example.com", "password": "securePass456", "phone": "246-813-5790", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 5, "username": "chrisj", "firstName": "Chris", "lastName": "Johnson", "email": "chrisj@example.com", "password": "securePass567", "phone": "357-951-4860", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 6, "username": "davidb", "firstName": "David", "lastName": "Brown", "email": "davidb@example.com", "password": "securePass678", "phone": "468-027-1359", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 7, "username": "emilyc", "firstName": "Emily", "lastName": "Clark", "email": "emilyc@example.com", "password": "securePass789", "phone": "579-146-8023", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 8, "username": "frankm", "firstName": "Frank", "lastName": "Moore", "email": "frankm@example.com", "password": "securePass890", "phone": "680-219-3574", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 9, "username": "graceh", "firstName": "Grace", "lastName": "Hill", "email": "graceh@example.com", "password": "securePass901", "phone": "791-235-4680", "userStatus": 1}|{"message": "User created successfully."}|201
+||{"id": 10, "username": "henryr", "firstName": "Henry", "lastName": "Reed", "email": "henryr@example.com", "password": "securePass012", "phone": "802-341-5796", "userStatus": 1}|{"message": "User created successfully."}|201

@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+|||{"users":[{"id":1,"username":"john_doe","firstName":"John","lastName":"Doe","email":"john.doe@example.com","password":"password123","phone":"123-456-7890","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":2,"username":"jane_smith","firstName":"Jane","lastName":"Smith","email":"jane.smith@example.com","password":"password456","phone":"987-654-3210","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":3,"username":"tom_hanks","firstName":"Tom","lastName":"Hanks","email":"tom.hanks@example.com","password":"pass1234","phone":"555-555-5555","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":4,"username":"amy_watson","firstName":"Amy","lastName":"Watson","email":"amy.watson@example.com","password":"amy12345","phone":"444-444-4444","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":5,"username":"listen_bird","firstName":"Listen","lastName":"Bird","email":"listen.bird@example.com","password":"birdsong","phone":"333-333-3333","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":6,"username":"swift_sparrow","firstName":"Swift","lastName":"Sparrow","email":"swift.sparrow@example.com","password":"sparrow16","phone":"222-222-2222","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":7,"username":"charlie_brown","firstName":"Charlie","lastName":"Brown","email":"charlie.brown@example.com","password":"charliebrown","phone":"111-111-1111","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":8,"username":"lucy_van","firstName":"Lucy","lastName":"Van","email":"lucy.van@example.com","password":"lucyvan88","phone":"666-666-6666","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":9,"username":"peppermint_patty","firstName":"Peppermint","lastName":"Patty","email":"peppermint.patty@example.com","password":"peppermint99","phone":"777-777-7777","userStatus":1}]}|{"message":"Users created successfully"}|201
+|||{"users":[{"id":10,"username":"snoopy_dog","firstName":"Snoopy","lastName":"Dog","email":"snoopy.dog@example.com","password":"snoopydog","phone":"888-888-8888","userStatus":1}]}|{"message":"Users created successfully"}|201
