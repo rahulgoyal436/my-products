@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"username": "jdoe"}|||{"id": 1, "username": "jdoe", "firstName": "John", "lastName": "Doe", "email": "jdoe@example.com", "password": "password123", "phone": "+11234567890", "userStatus": 1}|200
+{"username": "asmith"}|||{"id": 2, "username": "asmith", "firstName": "Alice", "lastName": "Smith", "email": "asmith@example.com", "password": "securepass", "phone": "+19876543210", "userStatus": 0}|200
+{"username": "bwilliams"}|||{"id": 3, "username": "bwilliams", "firstName": "Bob", "lastName": "Williams", "email": "bwilliams@example.com", "password": "bobbyw", "phone": "+12345678901", "userStatus": 1}|200
+{"username": "cjohnson"}|||{"id": 4, "username": "cjohnson", "firstName": "Claire", "lastName": "Johnson", "email": "cjohnson@example.com", "password": "claire123", "phone": "+10987654321", "userStatus": 1}|200
+{"username": "dlee"}|||{"id": 5, "username": "dlee", "firstName": "David", "lastName": "Lee", "email": "dlee@example.com", "password": "davlee", "phone": "+12223334444", "userStatus": 0}|200
+{"username": "janderson"}|||{"id": 6, "username": "janderson", "firstName": "Jessica", "lastName": "Anderson", "email": "janderson@example.com", "password": "jesslee", "phone": "+11223344556", "userStatus": 1}|200
+{"username": "gmartinez"}|||{"id": 7, "username": "gmartinez", "firstName": "George", "lastName": "Martinez", "email": "gmartinez@example.com", "password": "georgem", "phone": "+12332123456", "userStatus": 0}|200
+{"username": "hlewis"}|||{"id": 8, "username": "hlewis", "firstName": "Helen", "lastName": "Lewis", "email": "hlewis@example.com", "password": "lewishelen", "phone": "+16789990010", "userStatus": 1}|200
+{"username": "iprobinson"}|||{"id": 9, "username": "iprobinson", "firstName": "Ian", "lastName": "Robinson", "email": "iprobinson@example.com", "password": "irobinson", "phone": "+17234567899", "userStatus": 0}|200
+{"username": "kjones"}|||{"id": 10, "username": "kjones", "firstName": "Karen", "lastName": "Jones", "email": "kjones@example.com", "password": "karebear", "phone": "+18887776655", "userStatus": 1}|200

@@ -1,0 +1,11 @@
+requestParam,requestHeader,requestBody,responseBody,statusCode
+,,{"id":1,"category":{"id":1,"name":"Dog"},"name":"Buddy","photoUrls":["http://example.com/dogs/1.jpg"],"tags":[{"id":1,"name":"friendly"}],"status":"available"},,200
+,,{"id":2,"category":{"id":2,"name":"Cat"},"name":"Whiskers","photoUrls":["http://example.com/cats/2.jpg"],"tags":[{"id":2,"name":"playful"}],"status":"pending"},,200
+,,{"id":3,"category":{"id":1,"name":"Dog"},"name":"Max","photoUrls":["http://example.com/dogs/3.jpg"],"tags":[{"id":3,"name":"loyal"}],"status":"sold"},,200
+,,{"id":4,"category":{"id":3,"name":"Bird"},"name":"Tweety","photoUrls":["http://example.com/birds/4.jpg"],"tags":[{"id":4,"name":"chirpy"}],"status":"available"},,200
+,,{"id":5,"category":{"id":4,"name":"Fish"},"name":"Goldie","photoUrls":["http://example.com/fish/5.jpg"],"tags":[{"id":5,"name":"quiet"}],"status":"pending"},,200
+,,{"id":6,"category":{"id":5,"name":"Rabbit"},"name":"Hopper","photoUrls":["http://example.com/rabbits/6.jpg"],"tags":[{"id":6,"name":"cute"}],"status":"sold"},,200
+,,{"id":7,"category":{"id":1,"name":"Dog"},"name":"Rex","photoUrls":["http://example.com/dogs/7.jpg"],"tags":[{"id":7,"name":"guard"}],"status":"available"},,200
+,,{"id":8,"category":{"id":2,"name":"Cat"},"name":"Shadow","photoUrls":["http://example.com/cats/8.jpg"],"tags":[{"id":8,"name":"mysterious"}],"status":"pending"},,200
+,,{"id":9,"category":{"id":6,"name":"Hamster"},"name":"Fuzzy","photoUrls":["http://example.com/hamsters/9.jpg"],"tags":[{"id":9,"name":"tiny"}],"status":"available"},,200
+,,{"id":10,"category":{"id":3,"name":"Bird"},"name":"Sky","photoUrls":["http://example.com/birds/10.jpg"],"tags":[{"id":10,"name":"flying"}],"status":"sold"},,200

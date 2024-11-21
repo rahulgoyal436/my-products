@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"petId": 1}|||{"id": 1, "category": {"id": 101, "name": "Dogs"}, "name": "Rex", "photoUrls": ["http://example.com/photo1.jpg"], "tags": [{"id": 501, "name": "Friendly"}], "status": "available"}|200
+{"petId": 2}|||{"id": 2, "category": {"id": 102, "name": "Cats"}, "name": "Whiskers", "photoUrls": ["http://example.com/photo2.jpg"], "tags": [{"id": 502, "name": "Cuddly"}], "status": "sold"}|200
+{"petId": 3}|||{"id": 3, "category": {"id": 103, "name": "Birds"}, "name": "Tweety", "photoUrls": ["http://example.com/photo3.jpg"], "tags": [{"id": 503, "name": "Chirpy"}], "status": "available"}|200
+{"petId": 4}|||{"id": 4, "category": {"id": 101, "name": "Dogs"}, "name": "Buddy", "photoUrls": ["http://example.com/photo4.jpg"], "tags": [{"id": 504, "name": "Energetic"}], "status": "pending"}|200
+{"petId": 5}|||{"id": 5, "category": {"id": 102, "name": "Cats"}, "name": "Mittens", "photoUrls": ["http://example.com/photo5.jpg"], "tags": [{"id": 505, "name": "Playful"}], "status": "available"}|200
+{"petId": 6}|||{"id": 6, "category": {"id": 104, "name": "Fish"}, "name": "Goldie", "photoUrls": ["http://example.com/photo6.jpg"], "tags": [{"id": 506, "name": "Colorful"}], "status": "sold"}|200
+{"petId": 7}|||{"id": 7, "category": {"id": 103, "name": "Birds"}, "name": "Chirpy", "photoUrls": ["http://example.com/photo7.jpg"], "tags": [{"id": 503, "name": "Chirpy"}], "status": "pending"}|200
+{"petId": 8}|||{"id": 8, "category": {"id": 101, "name": "Dogs"}, "name": "Snowy", "photoUrls": ["http://example.com/photo8.jpg"], "tags": [{"id": 507, "name": "Fluffy"}], "status": "sold"}|200
+{"petId": 9}|||{"id": 9, "category": {"id": 102, "name": "Cats"}, "name": "Shadow", "photoUrls": ["http://example.com/photo9.jpg"], "tags": [{"id": 508, "name": "Mysterious"}], "status": "available"}|200
+{"petId": 10}|||{"id": 10, "category": {"id": 104, "name": "Fish"}, "name": "Splash", "photoUrls": ["http://example.com/photo10.jpg"], "tags": [{"id": 509, "name": "Lively"}], "status": "pending"}|200

@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{"petId": 1}|||{"code": 200, "type": "success", "message": "Image uploaded successfully"}|200
+{"petId": 2}|||{"code": 201, "type": "success", "message": "Image processed and uploaded"}|200
+{"petId": 3}|||{"code": 200, "type": "success", "message": "Upload complete"}|200
+{"petId": 4}|||{"code": 202, "type": "warning", "message": "Upload pending"}|200
+{"petId": 5}|||{"code": 200, "type": "success", "message": "Image upload confirmed"}|200
+{"petId": 6}|||{"code": 204, "type": "warning", "message": "No action taken, retry"}|200
+{"petId": 7}|||{"code": 200, "type": "success", "message": "Image saved"}|200
+{"petId": 8}|||{"code": 203, "type": "info", "message": "Upload received, processing"}|200
+{"petId": 9}|||{"code": 200, "type": "success", "message": "Success, image stored"}|200
+{"petId": 10}|||{"code": 205, "type": "info", "message": "Upload batch processing"}|200
